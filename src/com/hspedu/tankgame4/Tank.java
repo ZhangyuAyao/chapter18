@@ -4,7 +4,9 @@ public class Tank {
     private int x;//坦克的横坐标
     private int y;//坦克的纵坐标
     private int direct = 0;//坦克方向 0 上 1 右 2 下 3 左
-    private  int speed = 10;
+    private  int speed = 5;
+    boolean isLive = true;
+
 
     //上右下左移动方法
     public void moveUp() {
